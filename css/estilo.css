@@ -1,0 +1,177 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: darkgray;
+    background-color: cornflowerblue;
+}
+
+a {
+    color: lightcoral;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+span {
+    font-weight: 300;
+    color: coral;
+}
+
+.mlogin {
+    margin: 170px auto 0;
+}
+
+.mregister {
+    margin: 80px auto 0;
+}
+
+.error {
+    margin: 20px auto 0;
+    padding: 1px;
+    font-weight: 500;
+    color: orangered;
+    text-align: center;
+}
+.ok {
+    margin: 20px auto 0;
+    padding: 1px;
+    font-weight: 500;
+    color: green;
+    text-align: center;
+}
+.container {
+    padding: 25px 16px 25px 10px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+}
+
+#myweb {
+    width: 500px;
+    padding: 30px;
+    background: white;
+    margin: 160px auto 0;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+}
+
+.container h1 {
+    color: dimgrey;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.container label {
+    color: #777;
+    font-size: 14px;
+}
+
+#login, #change {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    background-color: yellowgreen;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: orange;
+    box-shadow: inset 0 0 0 3px skyblue;
+}
+
+button:active {
+    border: solid 1px skyblue;
+    background: rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+    color: orange;
+    padding: 7px 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.button {
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+    color: #fff;
+    padding: 7px 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.noticias {
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+    color: #fff;
+    padding: 7px 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.container form .input,
+.container input[type=text],
+.container input[type=password],
+.container input[type=e] {
+    background: #fbfbfb;
+    font-size: 24px;
+    line-height: 1;
+    width: 100%;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.regtext {
+    font-size: 13px;
+    margin-top: 26px;
+    color: darkgray;
+}
+
+.button:hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top, #f88e11, #f06015);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.cerrar{
+    top: -90px;
+    left: 18px;
+    position: relative;
+}
+footer {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
