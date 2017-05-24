@@ -27,13 +27,6 @@ if(!isset($_SESSION["username"])){
                             <br />
                             <input type="password" name="new_password2" id="new_password2" class="input" value="" size="20" /> </label>
                     </p>
-                    <p>
-                    	<label for="identidad">Eres humano?</label>
-                    		<br />
-                    		<input type="checkbox" name="identidad" value="human">Soy Humano<br>
-							<input type="checkbox" name="identidad" value="robot">Soy un robot 
-                    		
-                    </p>
                         <p class="submit">
                             <input type="submit" name="change" id="change" class="button" value="Cambiar" /> </p>
                 </form>
