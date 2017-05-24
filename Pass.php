@@ -61,12 +61,13 @@ if($_SERVER['REQUEST_METHOD']=='POST' && $_REQUEST['login']=='Entrar'){
 if($_SERVER['REQUEST_METHOD']=='POST' && $_REQUEST['change']=='Cambiar'){
     
     if(!empty($_POST['new_password']) && !empty($_POST['new_password2']) && !empty($_POST['old_password'])) {
+    	$ldap_check=cleanInput($_POST['identidad']);
         $ldaprdn=cleanInput($_POST['username']);
         $ldappass=cleanInput($_POST['new_password']);
         $ldappass2=cleanInput($_POST['new_password2']);
         $ldappass_old=cleanInput($_POST['old_password']);
         
-        if($ldappass!=$ldappass_old && $ldappass==$ldappass2){
+        if($ldappass!=$ldappass_old && $ldappass==$ldappass2 && ldap_check=="human"){
             
             if ($ldapconn) {
 
