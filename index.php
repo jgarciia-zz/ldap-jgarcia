@@ -12,7 +12,7 @@ if(isset($_SESSION["username"])){
                         <h1>Login</h1>
                         <form name="loginform" id="loginform" action="Pass.php" method="post">
                             <p>
-                                <label for="user_login">Nombre De Usuario
+                                <label for="user_login">Nombre De Usuario 2
                                     <br />
                                     <input type="text" name="username" id="username" class="input" value="" size="20" /> </label>
                             </p>
